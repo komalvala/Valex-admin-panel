@@ -1,0 +1,167 @@
+@media(max-width:1200px){
+    aside{       
+        min-width: 15%;
+        width: 14%;  
+    }      
+    .logo-imge{
+        width: 200px;
+    }
+    header input.form-control{
+        width: 220px;
+        height: 41px;
+    }
+    .box-img{
+        margin-bottom:20px ;
+    }
+    
+    .chart .about-chart{
+        margin-top: 0px;
+    }
+    .order{
+        margin-top: 0px;
+    }
+    
+    .activity{
+        margin-top: 0px;
+    }
+    
+    .top{
+        right: 2%;
+    }
+}
+@media(max-width:992px){
+    .logo-img {
+       max-width: 100%;
+       box-shadow: none;
+    }
+    header{
+        padding: 0px 20px;
+    }
+    aside{       
+        min-width: 14%;
+        width: 12%;  
+    }
+    .content .container-fluid{
+        flex-wrap: wrap;
+    }
+    .content .content-about{
+        flex-wrap: wrap;
+    }
+    header .res-btn{
+        display: block;
+    }
+    header .menu{
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        top:-14%;   
+        left: 0;
+        transition: all 0.5s;
+        z-index: -2;
+    }
+    header .menu.list{
+     top: 14%;
+     transition: all 0.5s;
+
+ }
+    header .menu ul{
+        flex-direction: row;
+        display: flex;
+    }
+    aside{
+        left: -14%;
+        transition: all 0.5s;
+        z-index: 99;
+    }
+    main{
+        width: 100%;
+        left: 0%;
+    }
+    
+    .activity{
+        margin-bottom: 20px;
+    }
+    .pro .col-lg-6{
+        margin-bottom: 20px;
+    }
+    .progress.call::after{
+        left: 45%;
+    }
+    .progress::after{
+        left: 75%;
+    }
+    .drop-one{
+        visibility: hidden;
+    }
+    .drop-two{
+        visibility: hidden;
+    }
+    .drop-three{
+        visibility: hidden;
+    }
+    
+}
+
+@media(max-width:768px){
+
+     aside{       
+        min-width: 14%;
+        width: 12%;  
+    }
+    .side-profile-info{
+        padding: 10px 0px 0px;
+      
+    }
+    .profile-img img{
+        height: 50px;
+        width: 50px;
+    }
+    .side-profile-info h4{
+        font-size: 12px;
+    }
+    .side-profile-info p{
+        font-size: 11px;
+    }
+    .side-bar h6{
+        font-size: 9px;
+        padding: 0px 10px 0px 12px;
+        margin: 12px 0px 6px;
+    }
+    .side-bar .accordion-button{
+        padding: 5px 0px 5px 10px;
+    }
+    .accordion-item button i,
+    .accordion-item button{
+        color: var(--aside-p);
+    }
+    .accordion-item button .accordion-button{
+        color: var(--head-p);
+    }
+    .accordion-body li .fa-solid{
+        font-size: 6px;
+        margin-right: 2px;
+    }
+    .accordion-body li{
+        font-size: 11px;
+        padding: 4px;
+    }
+    .accordion-button i{
+        font-size: 11px ;
+    }
+    .accordion-button{
+        font-size: 11px;
+    }
+    .accordion-button::after {
+        width: 5px;
+        height: 5px;
+        background-color: rgb(189, 184, 184);
+        border-radius: 50%;
+    }
+    .about-info{
+        text-align: left;
+    }
+    .about-sale{
+        text-align: left;
+    }
+    
+}
